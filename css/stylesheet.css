@@ -1,0 +1,73 @@
+
+html{
+  width:100vw;
+  color:#fff;
+  margin:0;
+  overflow-x: hidden
+}
+
+body {  
+  font-family: 'Space Grotesk', sans-serif;
+  overflow-x: hidden;
+  width:100vw;
+  margin:0;
+  text-align: center;
+  background-color: tomato;
+}
+
+
+
+#canvas{
+  margin-left:35vw;
+
+}
+
+input{
+background-color: tomato;
+color:#fff;
+border:1px solid #fff
+}
+
+::placeholder{
+  color:#fff;
+  padding-left:20px;
+}
+
+.info{
+  width:30vw;
+  height:50px;
+}
+
+form {
+  background-color: red;padding:50px;width:30vw; margin:auto;
+}
+
+.form-button {
+  cursor:pointer;margin:auto;width:240px; height:50px; border-style: solid;border-color:white; text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+  #canvas{
+    margin-left:22vw;   
+  }
+}
+
+@media screen and (max-width: 1024px) {
+ 
+  .info{
+    width:80vw;
+    height:50px;
+  }
+
+  form {
+    width:80vw;
+    padding:20px;
+  }
+ .form-button {
+   width:150px;
+ }
+
+ form textarea {
+   max-width:100%;
+ }
+}
