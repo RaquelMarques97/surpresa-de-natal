@@ -5,8 +5,12 @@
 */
 function playgame(){
 playAudio();
+$('#canvas3').css('display','none');
 $('.playgame').css('display','none');
-$('.send').css('display','block');
+$('#send').css('display','block');
+$('#send').css('pointer-events','none');
+$('.send').css('opacity','0.2');
+
 }
 
 function playAudio() { 
@@ -41,7 +45,8 @@ $(document).ready(function() {
     musicrash.play();      
   } 
   
-	//coordinates of the 'dots'
+
+    	//coordinates of the 'dots'
 	var coords = [
 		[187,4]
 		,[371,0]
@@ -170,6 +175,9 @@ reveal the image
 var revealImage = function(){
 
   playHohoho();
+  $('#send').css('pointer-events','auto');
+$('#send').css('opacity','1');
+
 	//fade out all the dots & lines
 	$('.dot_container,.line').animate({
 		opacity: 0
@@ -187,3 +195,6 @@ var revealImage = function(){
 };
 	
 });
+
+
+  

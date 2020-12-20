@@ -29,7 +29,7 @@ input{
   }
   
   .info{
-    width:40vw;
+    width:30vw;
     height:50px;
   }
   
@@ -44,7 +44,9 @@ input{
     cursor:pointer;margin:auto;width:240px; height:50px; border-style: solid;border-color:white; text-align: center;
   }
 
-  
+  textarea{
+    width:30vw;
+  }
 
 @media screen and (max-width: 1024px) {
   body{
@@ -69,7 +71,7 @@ input{
    width:150px;
  }
 
- form textarea {
-   max-width:100%;
- }
+ textarea{
+  width:80vw;
+}
 }

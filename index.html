@@ -46,22 +46,23 @@
     <div id="main_content_wrap"  class="outer" style="background-color: tomato;">
       <section id="main_content" class="inner">
 				<div id="main" role="main" class="clearfix" style="justify-content:center;" >
-					<div id="canvas"  style="border:none;position:absolute;">
+					<div id="canvas"  style="border:none;position:absolute;z-index:1;">
 						<div id="img_left" class="hidden_image"></div>
 						<div id="img_right" class="hidden_image"></div>
           </div>
-          <div id="canvas2"  style="border:none;">
+          <div id="canvas2"  style="border:none;position:absolute;z-index:0;">
             <img class="image1" style="width:100vw;margin:auto;height:800px;" src=""/>            
           </div>
+          <div id="canvas3"><img style="height:800px;" src="images\01_HOME.png"/></div>
         </div> 
       </section>      
      </div>
   
-    <div class="send"><a href="postcardform.html">Enviar postal</a></div>
+    <div id="send" class="send" type="button"><a href="postcardform.html">Enviar postal</a></div>
     <div class="playgame" type="button" onclick="playgame()">JOGAR</div>
     <div style="text-align: center;width:100vw; margin-top: 10%;">	&#169; 2020 Todos os direitos reservados</div>
 
-    
+
 
     <!-- FOOTER  -->   
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
