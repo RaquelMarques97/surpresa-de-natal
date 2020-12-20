@@ -48,8 +48,8 @@ form {
 
 @media screen and (max-width: 1024px) {
   #canvas{
-    margin-left:12vw; 
-    zoom:120%;  
+    margin-left:10vw; 
+    zoom:130%;  
   }
 }
 
