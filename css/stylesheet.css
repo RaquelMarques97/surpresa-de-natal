@@ -6,7 +6,8 @@ html{
   overflow-x: hidden
 }
 
-body {  
+body { 
+  padding:20px; 
   font-family: 'Space Grotesk', sans-serif;
   overflow-x: hidden;
   width:100vw;
@@ -46,14 +47,44 @@ form {
   cursor:pointer;margin:auto;width:240px; height:50px; border-style: solid;border-color:white; text-align: center;
 }
 
+.send {
+  margin:auto;
+  width:240px;
+  height:50px; 
+  border-style: solid;
+  border-color:white;
+  text-align: center; 
+  margin-top:50px;
+  padding:40px 50px 20px 50px; 
+  background-color: tomato;
+}
+
+.send a{
+  text-decoration: none;
+  color:#fff;
+}
+
 @media screen and (max-width: 1024px) {
+  
+}
+
+@media screen and (max-width: 1024px) {
+
+  .instructions {
+   font-size:larger;
+  }
+
   #canvas{
     margin-left:10vw; 
     zoom:130%;  
   }
-}
 
-@media screen and (max-width: 1024px) {
+  .send {
+    margin-top: 250px;
+  }
+  .send a{
+    font-size: 30px;
+  }
  
   .info{
     width:80vw;
@@ -64,6 +95,7 @@ form {
     width:80vw;
     padding:20px;
   }
+
  .form-button {
    width:150px;
  }
