@@ -3,6 +3,12 @@
 * Game of 'Connect the dots' using jquery & CSS3
 *
 */
+function playgame(){
+playAudio();
+$('.playgame').css('display','none');
+$('.send').css('display','block');
+}
+
 function playAudio() { 
   music.play(); 
   $('.pause').css('display','block');
@@ -57,7 +63,7 @@ $(document).ready(function() {
 		,[157,255]
 		,[165,210]
 		,[190,165]
-		,[187,10]
+		,[187,20]
 		
 		];
   

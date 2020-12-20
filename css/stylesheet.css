@@ -23,31 +23,9 @@ body {
 
 }
 
-input{
-background-color: tomato;
-color:#fff;
-border:1px solid #fff
-}
-
-::placeholder{
-  color:#fff;
-  padding-left:20px;
-}
-
-.info{
-  width:30vw;
-  height:50px;
-}
-
-form {
-  background-color: red;padding:50px;width:30vw; margin:auto;
-}
-
-.form-button {
-  cursor:pointer;margin:auto;width:240px; height:50px; border-style: solid;border-color:white; text-align: center;
-}
 
 .send {
+  display:none;
   margin:auto;
   width:240px;
   height:50px; 
@@ -55,18 +33,30 @@ form {
   border-color:white;
   text-align: center; 
   margin-top:50px;
-  padding:40px 50px 20px 50px; 
+  padding:30px 50px 20px 50px; 
   background-color: tomato;
 }
+
+.playgame {
+  margin:auto;
+  width:240px;
+  height:50px; 
+  border-style: solid;
+  border-color:white;
+  text-align: center; 
+  margin-top:50px;
+  padding:30px 50px 20px 50px; 
+  background-color: tomato;
+  font-size:30px;
+}
+
 
 .send a{
   text-decoration: none;
   color:#fff;
 }
 
-@media screen and (max-width: 1024px) {
-  
-}
+
 
 @media screen and (max-width: 1024px) {
 
@@ -81,6 +71,10 @@ form {
 
   .send {
     margin-top: 250px;
+  }
+
+  .playgame{
+    margin-top:250px;
   }
   .send a{
     font-size: 30px;

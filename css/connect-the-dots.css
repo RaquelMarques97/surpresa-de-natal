@@ -4,7 +4,7 @@
 .dot_container {position:absolute;padding:1px;padding:1px;}
 
 .dot {position:relative;height:16px;width:16px;background-color:#fff;border-radius:50%;float:left;margin:12px -3px 0 0 ;}
-.dot_number {position:relative;float:right;color:#fff;font-size:larger}
+.dot_number {position:relative;float:left;color:#fff;font-size:larger}
 
 .line {
 	height:3px;
