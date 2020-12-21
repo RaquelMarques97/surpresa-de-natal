@@ -1,0 +1,58 @@
+<!DOCTYPE <!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/postal.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">
+</head>
+
+<body style="background-color:tomato;color:#fff;text-align: center;justify-content: center;">
+    <div style="display:flex;">
+        <div style="text-align: left;width:45vw;">
+            <h1 id="project_title" style="color:#fff;">Uppartner</h1>
+        </div>
+        <div style="text-align: right;width:50vw;">
+            <img style="height:50px;" src="" />
+            <img style="height:50px;" src="" />
+            <img style="height:50px;" src="" />
+        </div>
+    </div>
+    <h1 style="text-align: center; ">LOrem Ipsum</h1>
+    <div style="text-align: center;">LOrem Ipsum ngnsoiggpsxçmgçxrmh</div>
+    <div style="text-align: center;margin-bottom:50px;">LOrem Ipsum ngnsoiggpsxçmgçxrmhbçlsrmlhçmflh</div>
+
+    <div style="cursor:pointer;" id="front">
+        <div onclick="rotate()" class="postal"></div>
+    </div>
+    <div id="back">
+        <div class="postal">
+            <p id="mensagem">Mensagem</p>
+        </div>
+
+    </div>
+    <script>
+        function rotate() {
+
+            document.getElementById('front').className = "rotate";
+            document.getElementById('back').className = "appear";
+            document.getElementById('back').style.display = "block";
+            document.getElementById('back').style.marginTop = "-500px";
+            document.getElementById('mensagem').className = "message-appear";
+
+
+        }
+
+    </script>
+
+
+    <div style="text-align: center; margin-top: 5%;"> &#169; 2020 Todos os direitos reservados</div>
+    <script src="" async defer></script>
+</body>
+
+</html>

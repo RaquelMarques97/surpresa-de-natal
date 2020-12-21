@@ -1,0 +1,112 @@
+.postal {
+    height: 500px;
+    width: 500px;
+    background: radial-gradient(#e66465, #5a121c);
+    margin: auto;
+    color: #fff;
+
+}
+
+#back {
+    display: none;
+    position: absolute;
+    margin-left: 32vw;
+}
+
+#mensagem {
+    position: absolute;
+    opacity: 0;
+    margin-top: 100px;
+}
+
+
+@-webkit-keyframes y {
+    0% {
+        -webkit-transform: rotateY(0deg);
+    }
+
+
+    50% {
+        -webkit-transform: rotateY(90deg);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: rotateY(180deg);
+        opacity: 0;
+
+    }
+}
+
+@-webkit-keyframes x {
+    0% {
+        -webkit-transform: rotateY(0deg);
+        opacity: 0;
+    }
+
+    50% {
+        -webkit-transform: rotateY(90deg);
+        opacity: 0.2;
+    }
+
+
+    100% {
+        -webkit-transform: rotateY(180deg);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes message-opacity {
+    0% {
+
+        opacity: 0;
+    }
+
+    50% {
+
+        opacity: 0.2;
+    }
+
+
+    100% {
+
+        opacity: 1;
+    }
+}
+
+
+
+.rotate {
+    -webkit-animation: y 2s 1 linear;
+    animation-fill-mode: forwards;
+
+}
+
+.appear {
+    -webkit-animation: x 2s 1 linear;
+
+
+
+}
+
+.message-appear {
+    -webkit-animation: message-opacity 6s 1 linear;
+    animation-fill-mode: forwards;
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .postal {
+        width: 95vw;
+    }
+
+    #back {
+        display: none;
+        position: absolute;
+        margin-left: 0;
+    }
+
+
+}
